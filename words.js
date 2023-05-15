@@ -1,7 +1,7 @@
 let words = [
   {
-    word: "Statement",
-    hint: "A declaration of something!",
+    word: "Laptop",
+    hint: "The thing we stare at blankly in class!",
   },
   {
     word: "Marketing",

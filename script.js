@@ -9,15 +9,15 @@ let wordIndex = 0;
 let correctWord, timer;
 
 const initTimer = (maxTime) => {
-  // clearInterval(timer);
-  // timer = setInterval(() => {
-  //   if (maxTime > 0) {
-  //     maxTime--;
-  //     return (timeText.innerText = maxTime);
-  //   }
-  //   alert(`Time Up! ${correctWord.toUpperCase()} was the correct word.`);
-  //   playGame();
-  // }, 1000);
+  clearInterval(timer);
+  timer = setInterval(() => {
+    if (maxTime > 0) {
+      maxTime--;
+      return (timeText.innerText = maxTime);
+    }
+    alert(`Time Up! ${correctWord.toUpperCase()} was the correct word.`);
+    playGame();
+  }, 1000);
 };
 
 const playGame = () => {
